@@ -6,7 +6,12 @@ const Hero = () => {
       <Element name="hero">
         <div className="container">
           <div className="relative z-2 max-w-512 max-lg:max-w-388">
-            <div>Video Editing</div>
+            <div className="caption small-2 uppercase text-p3">
+              Video Editing
+            </div>
+            <h1 className="mb-6 h1 text-p4 uppercase max-lg:mb-7 max-lg:h2 max-md:mb-4 max-md:text-5xl max-md:leading-12">
+              Amazingly Simple
+            </h1>
           </div>
         </div>
       </Element>
